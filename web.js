@@ -9,7 +9,6 @@ fs.readFile('index.html', function (err, fileContents) {
     }       
 
 	app.get('/', function(request, response) {
-		fileContents = fs.readFileSync('index.html');
 		response.send(fileContents);
 	});
 	
