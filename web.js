@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var app = express.createServer(express.logger());
 
-fs.readFile('index.html', function (err, fileContents) {
+fs.readFile('/home/ubuntu/bitstarter/index.html', function (err, fileContents) {
     if (err) {
         throw err; 
     }       
