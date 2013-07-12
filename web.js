@@ -13,7 +13,6 @@ var out = fs.readFileSync('index.html','utf8', function(err, data){
 }
 
 app.get('/', function(request, response) {
-	fs.readFile(
   	response.send(fileContents);
 });
 
