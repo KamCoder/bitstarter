@@ -1,7 +1,7 @@
 var express = require('express');
 
 var fs = require('fs');
-var out = fs.readFileSync('index1.html','utf8', function(err, data){
+var out = fs.readFileSync('index.html','utf8', function(err, data){
 	if (err) {
     return console.log(err);
   }
